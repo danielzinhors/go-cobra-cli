@@ -39,7 +39,7 @@ var category string
 func init() {
 	rootCmd.AddCommand(categoryCmd)
 	//categoryCmd.PersistentFlags().StringP("name", "n", "", "Nome da categpria")
-	categoryCmd.PersistentFlags().StringVarP(&category, "name", "n", "", "Nome da categpria")
+	//categoryCmd.PersistentFlags().StringVarP(&category, "name", "n", "", "Nome da categpria")
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
